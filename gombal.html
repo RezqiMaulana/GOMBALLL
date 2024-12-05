@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gombalan Manis</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: #fce4ec;
+        color: #880e4f;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        padding: 20px;
+      }
+      .gombal {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .button {
+        margin-top: 20px;
+      }
+      button {
+        background-color: #e91e63;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #d81b60;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hai Sayang!</h1>
+      <p class="gombal">Kamu tahu nggak? Aku nggak pernah belajar matematika, tapi aku tahu kita selalu bisa menghitung hari bahagia bersama.</p>
+      <div class="button">
+        <button onclick="revealLove()">Klik untuk tahu lebih ❤</button>
+      </div>
+      <p id="reveal" style="display: none; font-size: 20px; margin-top: 20px">Aku sayang kamu lebih dari apapun di dunia ini! 💕</p>
+    </div>
+    <script>
+      function revealLove() {
+        document.getElementById("reveal").style.display = "block";
+      }
+    </script>
+  </body>
+</html>
